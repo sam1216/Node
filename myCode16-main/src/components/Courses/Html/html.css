@@ -1,0 +1,87 @@
+.main-template {
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+.template {
+    width: 70%;
+    transform: translateX(217px);
+}
+
+.sideBar {
+    border: 1px solid var(--primary);
+    color: white;
+    padding: 20px;
+    background-color: var(--sidebar);
+    position: fixed;
+    height: 71vh;
+    /* overflow-y: auto; */
+}
+
+.sideBar ul li {
+    list-style: none;
+}
+
+.sideBar ul li a {
+    text-decoration: none;
+    color: var(--sidebarfont);
+    line-height: 37px;
+}
+
+.content {
+    height: 1400px;
+}
+
+.content ul li:hover {
+    background-color: #bcaaf740;
+    transition: 0.1s ease-in;
+}
+
+.scroll2 {
+    overflow-y: auto; 
+    max-height: 100%; 
+  }
+
+.scroll2::-webkit-scrollbar {
+    width: 5px;
+    height: 20%;
+}
+
+.scroll2::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 50px;
+}
+
+/*----------------htmlHome--------------*/
+.htmlHome {
+    margin-top: 40px;
+}
+
+.htmlHome h1,
+h2 {
+    color: var(--primary);
+}
+
+.htmlHome_one ul {
+    padding-left: 30px;
+}
+
+pre[class*="language-"] {
+    padding: 2em !important;
+    font-size: 18px !important;
+    border: 1px solid var(--primary);
+    border-radius: 1.3em;
+    border-radius: 20px !important;
+}
+
+.copyClipboard {
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+.copyClipboard:hover {
+    background-color: #bcaaf740;
+}

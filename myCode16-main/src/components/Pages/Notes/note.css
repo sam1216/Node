@@ -1,0 +1,95 @@
+.drawerNote{
+    padding: 20px;
+}
+.drawerNote h2{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.drawerNoteList_heading{
+    color: var(--primary);
+}
+.drawerSlide {
+    overflow-x: hidden;
+    overflow-y: auto; 
+    max-height: 100%; 
+    position: relative;
+    height: 100vh;
+  }
+  
+  .drawerSlide::-webkit-scrollbar {
+    width: 5px;
+    height: 20%;
+  }
+  
+  .drawerSlide::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 50px;
+    padding-right: 20px;
+  }
+  
+  
+.drawerBtn{
+    background-color: var(--primary) !important;
+}
+.drawerMain{
+    display: flex;
+}
+/* .drawerBtn-main{
+    width: 350px;
+} */
+
+.drawerBtnDlt-main{
+   float: end;
+}
+.drawerBtn-main input{
+    width: 43%;
+    margin-right: 7px;
+    border: none;
+    border-bottom: 2px solid var(--primary);
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    min-width: 0px !important; 
+    padding: 0 !important;
+}
+.css-10hburv-MuiTypography-root {
+    font-size: 14px !important;
+    color: var(--dark) !important;
+    font-weight: 600 !important;
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    background-color: var(--dark) !important;
+    border-right: 2px solid var(--primary);
+}
+
+/*-----------------DrawerNoteItem------------------*/
+
+.dragging{
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    padding: 10px;
+    width: 43%;
+    /* display: flex; */
+    cursor: grabbing;
+}
+
+.dragging b{ 
+    color: var(--primary);
+}
+.dragging p{ 
+    color: var(--reverse);
+}
+
+.noteitemDlt:hover{
+    filter: hue-rotate(83deg);
+}
+.noteitemEdit:hover{
+    filter: hue-rotate(228deg);
+}
+
+.addNoteItem:hover{
+    background-color: #25c525;
+}

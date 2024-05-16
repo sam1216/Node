@@ -1,0 +1,9 @@
+code#myInput {
+    white-space: break-spaces;
+}
+.main-template h1, h2{
+    color: var(--primary);
+}
+.sideBar{
+    width: 11%;
+}

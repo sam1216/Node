@@ -1,0 +1,90 @@
+.admin-Main h1 {
+    color: var(--primary);
+}
+
+.adminLeft ul {
+    list-style: none;
+}
+
+.adminLeft ul li a {
+    text-decoration: none;
+}
+
+.adminContents {
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    display: flex;
+}
+
+.adminLeft {
+    border-right: 2px solid var(--primary);
+
+}
+
+.adminNavLink {
+    padding: 0px 50px 0px 50px;
+    line-height: 70px;
+}
+
+.userBio p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.adminImage {
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -81px;
+    margin-right: -81px;
+}
+
+.adminNavLink {
+    border-top: 2px solid var(--primary);
+}
+
+.usreBioImg {
+    width: 40%;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid var(--primary);
+}
+
+.adminRight {
+    padding: 10px;
+    margin: 0px;
+}
+
+.adminNavLink .css-i4bv87-MuiSvgIcon-root {
+    width: 2em !important;
+}
+
+.ringLoader {
+    margin: 5rem;
+}
+.usertblbtn button {
+    background-color: var(--primary);
+    padding: 9px 17px;
+    /* margin: 15px 15px 0px 0px; */
+    border: none;
+    border-radius: 10px;
+}
+.usertblbtn button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--dark);
+    font-weight: 600;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 150%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

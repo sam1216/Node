@@ -1,0 +1,55 @@
+/* global css */
+body{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+body{
+    font-family: poppins;
+    background-color: var(--dark);
+}
+:root{
+    --reverse: #000000;
+    --primary: #9333ea;
+    --secondary: #221d1d;
+    --tertiary: #1f2937;
+    --sidebar: #9333ea;
+    --sidebarfont: #ffffff;
+    --dark: #ffffff;
+    /* --overlay:  */
+  }
+
+  [data-theme="dark"]{
+    --reverse: #ffffff;
+    --primary: #c17eff;
+    --secondary: #c17eff;
+    --tertiary: #eaeef2;
+    --sidebar: #000000;
+    --sidebarfont: #deb9ff;
+    --dark: #000000;
+
+  }
+  img{
+    width: 100%;
+  }
+  ul{
+    padding: 0;
+  }
+  @media(max-width:1600px) {
+    .container{
+      max-width: 1140px;
+  }
+  }
+
+
